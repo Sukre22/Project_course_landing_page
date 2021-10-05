@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/Sukre22/Project_course_landing_page#readme",
   "devDependencies": {
+    "browser-sync": "^2.27.5",
     "gulp": "^4.0.2"
   }
 }
