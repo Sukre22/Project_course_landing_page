@@ -1,6 +1,20 @@
 body {
   font-size: 10px;
   background-color: green;
+  display: flex;
+}
+span {
+  font-size: 20px;
+  @media (max-width: 767px) {
+    font-size: 15px;
+  }
+}
+
+div {
+  font-size: 30;
+  @media (max-width: 767px) {
+    font-size: 20px;
+  }
 }
 
 body div {
