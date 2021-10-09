@@ -1,4 +1,4 @@
-@@include('alert.js');
+alert("hello world");;
 
 function testWebP(callback) {
 
