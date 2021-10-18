@@ -26,6 +26,29 @@ body {
   background-color: #f5f5f5;
 }
 
+.header {
+  padding: 41px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+ul.hr {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  list-style-type: none;
+  /*li {
+     margin-right: 26px;
+  }      */
+}
+
 .no-webp div {
   background: url("..img/img.jpg") 0 0 no-repeat; }
 
