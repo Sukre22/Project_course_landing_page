@@ -5,7 +5,12 @@ body{
 .header {
    padding: 41px 0;
    display: flex;
-   justify-content: space-between;     
+   justify-content: center;  
+   &-logo {
+      margin-right: 373px;
+      padding-top: 20px;
+      font-size: 14px;
+   }   
 }
 
 
@@ -14,9 +19,13 @@ ul.hr {
    display: flex;
    justify-content: space-between; 
    list-style-type: none;
-   /*li {
+   li {
       margin-right: 26px;
-   }      */
+      font-size: 16px;
+      font-family: 'Montserrat', sans-serif;
+      line-height: 25px;
+      
+   }      
 }
    
 
