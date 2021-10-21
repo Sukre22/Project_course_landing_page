@@ -34,6 +34,7 @@ body {
 }
 
 .header-logo {
+  font-family: "Roboto", sans-serif;
   padding-top: 20px;
   font-size: 14px;
 }
