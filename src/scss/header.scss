@@ -1,18 +1,17 @@
 body{
    background-color: #f5f5f5;
+   margin: 0 auto;
 }
 
 .container {
+   padding: 20px 0;
    max-width: 1162px;
    margin: 0px auto;
    display: flex;
    justify-content: space-between;
 }
 
-.header {
-   padding: 20px 0;
-   //display: flex;
-   
+.header {    
    &-logo {
       font-family: 'Roboto', sans-serif;
       padding-top: 20px;
@@ -27,13 +26,19 @@ ul.hr {
    justify-content: space-between; 
    list-style-type: none;
    li {
-      margin-right: 26px;
+      padding-right: 26px;
       font-size: 16px;
       font-family: 'Montserrat-Regular', sans-serif;
-      line-height: 25px;
-      
-   }      
-}
+      line-height: 25px; 
+      transition: 0.5s;  
+      cursor: pointer;   
+   }
+   li:hover {
+      color: red;      
+   }    
+   
+} 
+
    
 
 
