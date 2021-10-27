@@ -1,14 +1,10 @@
-.main {    
-    background-color: #222;
-    margin: 0px auto;
+.main-container {
+      
+    background-color: white;
+    max-width: 1162px;    
     height: 500px;
-    h1 {
-        color: #888;
-        font-family: 'Montserrat-Regular', sans-serif;
-    }
-    h2 {
-        color: #888;
-        font-family: 'Montserrat-Regular', sans-serif;
-    }
-}
+    border-radius: 20px;
+    box-shadow: 0.4em 0.4em 10px #e7e7e7;
+    
 
+}
