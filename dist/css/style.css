@@ -78,6 +78,15 @@ ul.hr li:hover {
   color: red;
 }
 
+.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 .main-container {
   background-color: white;
   max-width: 1162px;
@@ -85,4 +94,8 @@ ul.hr li:hover {
   border-radius: 20px;
   -webkit-box-shadow: 0.4em 0.4em 10px #e7e7e7;
           box-shadow: 0.4em 0.4em 10px #e7e7e7;
+}
+
+.main-container p {
+  padding: 30px;
 }
