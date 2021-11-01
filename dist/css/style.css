@@ -61,6 +61,8 @@ ul.hr {
       -ms-flex-pack: justify;
           justify-content: space-between;
   list-style-type: none;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 ul.hr li {
@@ -91,30 +93,38 @@ ul.hr li:hover {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
   background-color: white;
   width: 1162px;
-  height: 500px;
   border-radius: 20px;
   -webkit-box-shadow: 0.4em 0.4em 10px #e7e7e7;
           box-shadow: 0.4em 0.4em 10px #e7e7e7;
 }
 
-.main-container p {
-  padding: 30px;
-}
-
-.main-container .first {
-  text-align: center;
-  width: 400px;
+.main-wrap_text {
+  font-family: "Montserrat-Regular", sans-serif;
+  width: 500px;
   height: 400px;
   border: 5px;
+  padding-top: 100px;
+  padding-left: 100px;
+  padding-bottom: 200px;
 }
 
-.main-container .second {
-  text-align: center;
+.main-wrap_logo {
   width: 400px;
-  height: 400px;
+  height: 300px;
+  padding-top: 100px;
+  padding-right: 100px;
+  padding-bottom: 200px;
+}
+
+.main-wrap_logo img {
+  width: 400px;
+  height: 300px;
+  border-radius: 20px;
 }
