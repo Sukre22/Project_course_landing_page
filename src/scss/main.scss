@@ -11,26 +11,53 @@
         box-shadow: 0.4em 0.4em 10px #e7e7e7;      
     }
     &-wrap_text {  
-        font-family: 'Montserrat-Regular', sans-serif;         
+            font-family: 'Montserrat-Regular', sans-serif;         
             width: 500px;
             height: 400px;
             border: 5px;
             padding-top: 100px;
-           padding-left: 100px;
-           padding-bottom: 200px;
+            padding-left: 100px;
+           // padding-bottom: 200px;
+            button {
+                background-color: #20B2AA;
+                width: 200px;
+                height: 50px;
+                border-radius: 10px;
+                box-shadow: none;
+                border: none;
+                font-family: 'Montserrat-Regular', sans-serif;  
+                color: white;
+                font-weight: 700;
+                font-size: 15px;
+                transition: 0.5s;  
+                cursor: pointer;  
+                margin-top: 5px;
+            }
+            button:hover {
+                background-color: black;
+            }
         }
     &-wrap_logo {            
            width: 400px;
            height: 300px;
            padding-top: 100px;
            padding-right: 100px;
-           padding-bottom: 200px;
+          // padding-bottom: 200px;
            img {
-                //text-align: center;
+                
                 width: 400px;
                 height: 300px;
                 border-radius: 20px;                
             }
         }
+    &-wrap_advantages {
+        display: flex;
+        justify-content: center;
+        padding-left: 100px;
+        padding-right: 100px;
+        font-size: 13px;
+        font-weight: 700;
+        padding-bottom: 100px;
+    }
     
 }
