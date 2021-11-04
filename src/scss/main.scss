@@ -6,7 +6,7 @@
         flex-wrap: wrap;  
         justify-content: space-between;
         background-color: white;
-        width: 1162px;            
+        max-width: 1162px;            
         border-radius: 20px;
         box-shadow: 0.4em 0.4em 10px #e7e7e7;      
     }
@@ -17,7 +17,7 @@
             border: 5px;
             padding-top: 100px;
             padding-left: 100px;
-           // padding-bottom: 200px;
+           
             button {
                 background-color: #20B2AA;
                 width: 200px;
@@ -41,8 +41,7 @@
            width: 400px;
            height: 300px;
            padding-top: 100px;
-           padding-right: 100px;
-          // padding-bottom: 200px;
+           padding-right: 100px;          
            img {
                 
                 width: 400px;
@@ -53,26 +52,22 @@
     &-wrap_advantages {
         width: 100%;
         display: flex;
+        flex-wrap: wrap; 
+        //padding-bottom: 0px;     
+            
+        ul {
+        width: 100%;
+        display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
-        padding-left: 100px;
-        padding-right: 100px;
+        padding-left: 120px;
+        padding-right: 110px;
         font-size: 13px;
         font-weight: 400;
         font-family: 'Montserrat-Regular', sans-serif;  
-        padding-bottom: 100px;
-        &__first {
-            display: inline-flex;
-            display: list-item;
-            /*&-icon {
-                img {
-                    padding-right: 8px;
-                    width: 33px;
-                    height: 33px;
-                }
-            }*/
-        }
-        
+        padding-bottom: 80px;
+        }   
+               
     }
     
 }

@@ -1,0 +1,22 @@
+.audience {
+    display: flex;
+    justify-content: center;
+    &-container { 
+        padding-top: 60px;
+        padding-bottom: 100px;
+        max-width: 1162px;
+        margin: 0px auto;
+        display: flex;
+        justify-content: center;
+        
+
+        h1 {
+         font-size: 28px;
+         font-family: 'Montserrat-ExtraLight', sans-serif;
+         line-height: 33px; 
+         font-weight: 100;
+         text-align: center;
+         //color: #1e1e1e;
+        }
+    }
+}
