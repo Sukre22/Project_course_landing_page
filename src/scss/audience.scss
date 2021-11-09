@@ -1,13 +1,15 @@
 .audience {
     display: flex;
     justify-content: center;
-    &-container { 
+    
+    &-container {         
+        display: flex;
+        flex-flow: column;
         padding-top: 60px;
         padding-bottom: 100px;
         max-width: 1162px;
         margin: 0px auto;
-        display: flex;
-        justify-content: center;
+        
         
 
         h1 {
@@ -16,7 +18,37 @@
          line-height: 33px; 
          font-weight: 100;
          text-align: center;
+         padding-bottom: 100px;
          //color: #1e1e1e;
+        }
+        &__variants {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-left: 20px;
+            font-size: 10px;
+            font-family: 'Montserrat-Regular', sans-serif;  
+            img {
+                width: 40px;
+                height: 40px;
+                padding-top: 10px;
+            }
+            &-one {
+                display: flex;
+                flex-direction: row;
+                padding-right: 30px;
+                padding-bottom: 50px;
+                &_text {
+                    h2 {
+                        margin-bottom: 0px;
+                        font-size: 16px;
+                    }
+                    font-size: 15px;
+                    padding-left: 10px;
+                    max-width: 300px;   
+                    
+                }
+            }
         }
     }
 }
