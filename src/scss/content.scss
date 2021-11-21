@@ -16,6 +16,19 @@
          line-height: 33px; 
          font-weight: 100;
          text-align: center;
+         padding-bottom: 20px;
+    }
+    &_wrap {
+        font-family: 'Montserrat-Regular', sans-serif;  
+        font-size: 20px;
+        min-width: 1168px;
+        
+    } 
+    li {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        border-top: 1px solid #000000;
+        
     }
 }
 }
